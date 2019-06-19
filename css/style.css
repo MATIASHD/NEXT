@@ -17,6 +17,20 @@ body {
     background-color: #5b7989;
     border-radius: 10px 10px 0 0;
     padding: 0 15px 0 15px;  
+    animation: efecto 3s;
+}
+
+@keyframes efecto {
+    0% {
+        margin-top: 150%;
+    }
+
+    60% {
+        margin-top: -5%;
+    }
+    100% {
+        margin-top: 0%;
+    }
 }
 
 .titulo{
